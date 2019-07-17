@@ -14,3 +14,40 @@
 修改数据的长度，如 vm.items.length = 0。
 ```
 所以只能使用this.$set(arr,index,!arr[index])方法来检测更新
+
+5.关于echarts全屏的问题，新建页面，然后setlocalstorage,getLocalstorage.
+横屏全屏的解决方案有
+```java
+      tooltip: {
+          trigger: 'axis',
+          extraCssText: 'transform: rotate(90deg)'
+      },
+      xAxis: {
+          type: 'value',
+          axisLine: {lineStyle: {color: '#ccc'}},
+          axisTick: {show: false},
+          nameRotate: -90,
+          axisLabel: {
+              rotate: 90
+          },
+          position: 'top',
+          scale: true,
+
+      },
+      yAxis: {
+          type: 'category',
+          boundaryGap: false,
+          axisLine: {lineStyle: {color: '#ccc'}},
+          axisTick: {
+              interval: 5,
+          },
+          inverse: true,
+          axisLabel: {
+              rotate: -90,
+              margin: 15,
+              interval: 1
+          },
+      },
+```
+以及dataset里面的encode，可以直接将y轴和x轴映射，tooltips翻转，效果一致。
+
