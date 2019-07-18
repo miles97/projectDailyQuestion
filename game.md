@@ -66,4 +66,6 @@ currentWeekOfYear = weekOfyear + cureentweek -12
 关于日期和月就很简单，直接将new Date().getTime(24*60*60*1000)  就是一天的时间，然后fotmattingstring，取值
 
 
-8. 
+8. 关于对数据的控制问题
+
+接口返回很多二维数组，开发需要控制每一个Item单独的选中状态。
