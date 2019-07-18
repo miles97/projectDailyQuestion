@@ -69,3 +69,5 @@ currentWeekOfYear = weekOfyear + cureentweek -12
 8. 关于对数据的控制问题
 
 接口返回很多二维数组，开发需要控制每一个Item单独的选中状态。
+
+index === acitveIndex? 'avtive-css':''
