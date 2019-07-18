@@ -55,8 +55,15 @@
 let o='第29周' ;let num = o.split('')[1] + o.split("")[2];
 如果想要数字格式的，let num = Number(num)
 
-7.关于需求的问题
+7.关于周数的问题
 要对于一个区间的周，年进行往前推到12周，实现是关于echarts的问题，
 
 参数只有year:2019,weekOfYear:24;
 如何判断年和周。。。。
+当weekofyear<12的时候，接口请求判断year-1的周数，然后 
+currentWeekOfYear = weekOfyear + cureentweek -12
+
+关于日期和月就很简单，直接将new Date().getTime(24*60*60*1000)  就是一天的时间，然后fotmattingstring，取值
+
+
+8. 
