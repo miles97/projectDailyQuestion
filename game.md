@@ -51,3 +51,12 @@
 ```
 以及dataset里面的encode，可以直接将y轴和x轴映射，tooltips翻转，效果一致。
 
+6.关于拿到字符串里面的数值问题  
+let o='第29周' ;let num = o.split('')[1] + o.split("")[2];
+如果想要数字格式的，let num = Number(num)
+
+7.关于需求的问题
+要对于一个区间的周，年进行往前推到12周，实现是关于echarts的问题，
+
+参数只有year:2019,weekOfYear:24;
+如何判断年和周。。。。
