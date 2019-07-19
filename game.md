@@ -75,3 +75,22 @@ index === acitveIndex? 'avtive-css':''
 9. 在渲染文件中同一个button控制的问题
 
 通过不同状态的判断进入两个不同的执行函数或者直接if判断 Flag的true/false
+
+10. 监听问题，如果遇到组件的数值value变了，但是activeText没变的情况，在组件内部添加监听valueChange的事件，然后动态赋值activeText
+
+```javascript
+  watch:{
+      //监听startValue变化更改avtiveText对应的值
+      startValue: {
+          handler(newValue, oldValue) {
+              this.activeText = newValue
+          }
+      },
+      //以上同理
+      endValue:{
+          handler(newvalue,oldvalue){
+              this.activeText2=newvalue
+          }
+      }
+  }
+```
