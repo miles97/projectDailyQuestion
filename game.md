@@ -71,3 +71,7 @@ currentWeekOfYear = weekOfyear + cureentweek -12
 接口返回很多二维数组，开发需要控制每一个Item单独的选中状态。
 
 index === acitveIndex? 'avtive-css':''
+
+9. 在渲染文件中同一个button控制的问题
+
+通过不同状态的判断进入两个不同的执行函数或者直接if判断 Flag的true/false
