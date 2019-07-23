@@ -95,10 +95,11 @@ index === acitveIndex? 'avtive-css':''
   }
 ```
 
-11. dataset的删除数据集和增加操作
+11. dataset的删除数据集和增加操作 tooptips的显示问题
 
-目前的操作是通过for...in循环删除每个i中的index的数值，替换成NaN,不过具体的实现还没找到，这样而且有问题，如果替换成NULL或者undefined会引起一些报错的问题
+目前的操作是通过for...in循环删除每个i中的index的数值，替换成NaN,不过具体的实现还没找到，这样而且有问题，如果替换成NULL或者undefined会引起一些报错的问题，如果直接删除tooltips仍然还是有显示到问题。
 
+解决方案：使用series:this.series赋值，然后通过同步的splice series数组，引起整个option数值的更改。完成tooltips的更新。
 
 12.优化样式问题
 
@@ -111,3 +112,5 @@ index === acitveIndex? 'avtive-css':''
 不过yarn的一些东西仍然不习惯，还是避免不了npm的日常使用
 
 14.深拷贝问题，当我使用splice操作数组的时候，发现concat(),或者是[...Array]都不能深拷贝一个对象或是对数组影响并不能杜绝，具体的问题还未知出现在什么地方
+
+
