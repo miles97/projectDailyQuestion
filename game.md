@@ -120,3 +120,5 @@ Node ， JDK ， python2 , Android Studio , yarn
 react-native run-android
 ```
 以上需要依赖代理
+
+16.关于对于影响数组方法的构建
