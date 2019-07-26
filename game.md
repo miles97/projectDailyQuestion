@@ -126,4 +126,4 @@ react-native run-android
 
 17.关于隐式类型转换的问题，==
 
-
+18.rn原生环境以及Mac OS的配置
