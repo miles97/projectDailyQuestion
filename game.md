@@ -129,3 +129,21 @@ react-native run-android
 18.rn原生环境以及Mac OS的配置
 
 19.webstrom自动格式化的问题，实践发现webstorm会自动格式化空格以及制表符，对于合并代码什么的带来的影响还是很大的，所以当我们需要在主分支上面改动，或者在其他branch中改动较少的东西的话，为了避免冲突，使用sublime进行改动为好，缺点即是需要手动保存
+
+20.判断的===
+在测试相等性时，基本类型通过它们的值（value）进行比较，而对象通过它们的引用（reference）进行比较。JavaScript 检查对象是否具有对内存中相同位置的引用。
+作为参数传递的对象引用的内存位置，与用于判断相等的对象所引用的内存位置并不同。
+```javascript
+function checkAge(data) {
+  if (data === { age: 18 }) {
+    console.log('You are an adult!')
+  } else if (data == { age: 18 }) {
+    console.log('You are still an adult.')
+  } else {
+    console.log(`Hmm.. You don't have an age I guess`)
+  }
+}
+
+checkAge({ age: 18 })
+```
+所以{age:19}==={age:19}不成立
