@@ -45,7 +45,7 @@
           axisLabel: {
               rotate: -90,
               margin: 15,
-              interval: 1
+              interval: 1,
           },
       },
 ```
