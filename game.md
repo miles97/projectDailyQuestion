@@ -147,3 +147,7 @@ function checkAge(data) {
 checkAge({ age: 18 })
 ```
 所以{age:19}==={age:19}不成立
+
+21.当我们谈论工作，我们谈论什么
+
+22.
