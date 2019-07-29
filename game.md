@@ -150,4 +150,6 @@ checkAge({ age: 18 })
 
 21.当我们谈论工作，我们谈论什么
 
-22.
+22.计算数组中true的个数
+
+arrayLike.filter(Boolean).length
