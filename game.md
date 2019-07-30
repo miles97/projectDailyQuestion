@@ -153,3 +153,5 @@ checkAge({ age: 18 })
 22.计算数组中true的个数
 
 arrayLike.filter(Boolean).length
+
+23.语言新特性
