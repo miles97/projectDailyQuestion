@@ -148,8 +148,15 @@ checkAge({ age: 18 })
 ```
 所以{age:19}==={age:19}不成立
 
-21.当我们谈论工作，我们谈论什么
-
+21.webpack打包相关
+设置启动页面
+```javascript
+plugins:[
+      template: '/trendAnalysis', //启动页面
+      inject: true, //要把script插入到标签里
+      multihtmlCache: true // 解决多页打包的关键！
+]
+``
 22.计算数组中true的个数
 
 arrayLike.filter(Boolean).length
