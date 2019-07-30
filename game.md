@@ -63,7 +63,7 @@ let o='第29周' ;let num = o.split('')[1] + o.split("")[2];
 当weekofyear<12的时候，接口请求判断year-1的周数，然后 
 currentWeekOfYear = weekOfyear + cureentweek -12
 
-关于日期和月就很简单，直接将new Date().getTime(24*60*60*1000)  就是一天的时间，然后fotmattingstring，取值
+关于日期和月就很简单，直接将new Date().getTime(24 * 60 * 60 * 1000)  就是一天的时间，然后fotmattingstring，取值
 
 
 8. 关于对数据的控制问题
@@ -154,4 +154,5 @@ checkAge({ age: 18 })
 
 arrayLike.filter(Boolean).length
 
-23.语言新特性
+23.使用Picker自定义的start以及end问题
+mint-ui里面的picker 是关于solts插槽的数据展示问题，所以核心思想即是处理展示的数据问题，并且及时做到组件内部的监听，并及时清空数值
