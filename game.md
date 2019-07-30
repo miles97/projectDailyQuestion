@@ -156,7 +156,7 @@ plugins:[
       inject: true, //要把script插入到标签里
       multihtmlCache: true // 解决多页打包的关键！
 ]
-``
+```
 22.计算数组中true的个数
 
 arrayLike.filter(Boolean).length
