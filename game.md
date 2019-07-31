@@ -163,3 +163,8 @@ arrayLike.filter(Boolean).length
 
 23.使用Picker自定义的start以及end问题
 mint-ui里面的picker 是关于solts插槽的数据展示问题，所以核心思想即是处理展示的数据问题，并且及时做到组件内部的监听，并及时清空数值
+
+24.需求解构
+
+接口返回从日，到月，最多达到1000条数据。筛选进入图表展示
+
