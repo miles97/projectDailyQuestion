@@ -168,3 +168,11 @@ mint-ui里面的picker 是关于solts插槽的数据展示问题，所以核心�
 
 接口返回从日，到月，最多达到1000条数据。筛选进入图表展示
 
+通过预先处理数组，拿到一个唯一的值，date或者name。
+然后push出来进行处理，并进行去重Array.from(new Set(ArrayLike))
+然后一个for(var i=0;i<ArrLike.length;i++){
+      if(ArrayLike[i]===item.figuer){
+            arr.push([item.figuer])
+      }
+}
+
