@@ -242,3 +242,14 @@ dimension是最好处理的，只要把Name单独push出来，然后根据每一
 32.safari浏览器以及chorme之间的区别
 
 hybird开发中发现safari不能在参数中进行进行数据处理，只能接受一个指定的对象传递，而chorme就可以直接传递。解决方案较为简单，即是创建参数，重新处理后再指向该对象。this.dataForUrl
+
+33. 当接口无数据的时候默认填充或者处理
+
+```javascript
+suc.data.forEach(()=>{
+if (!item.elementData && item.elementData !== 0) {  //当数据没有的时候变成'-'空缺，数据为零时除外,正常处理
+      item['elementData'] = '-'
+         } else {
+      }
+})
+```
