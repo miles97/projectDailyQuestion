@@ -257,3 +257,6 @@ if (!item.elementData && item.elementData !== 0) {  //当数据没有的时候�
 34. SPA单页面切换路由时候的相关哲学
 
 关闭所有选项卡;关闭弹出框;清空数据;
+
+通过组件内监听一个flag的数据，flag=!flag,然后在handler函数内中  
+if(this.clickon){this.click=false}
