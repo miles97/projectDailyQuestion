@@ -258,5 +258,7 @@ if (!item.elementData && item.elementData !== 0) {  //当数据没有的时候�
 
 关闭所有选项卡;关闭弹出框;清空数据;
 
-通过组件内监听一个flag的数据，flag=!flag,然后在handler函数内中  
-if(this.clickon){this.click=false}
+通过组件内监听一个flag的数据，flag=!flag,然后在组件的watch的handler函数内中  
+if(this.clickon){
+      this.clickon=false
+}
