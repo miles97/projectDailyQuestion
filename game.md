@@ -264,3 +264,4 @@ if(this.clickon){
 }
 
 35. 对于接口依赖的promise
+明天十一世纪空儿u
