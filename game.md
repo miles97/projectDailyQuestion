@@ -262,3 +262,5 @@ if (!item.elementData && item.elementData !== 0) {  //当数据没有的时候�
 if(this.clickon){
       this.clickon=false
 }
+
+35. 对于接口依赖的promise
