@@ -274,3 +274,12 @@ emmmmm暂时并没有什么强烈的可以书面表述的经验之谈
 组件向父传参,父页面使用方法@xxx='xxx'
 子组件this.$emit(xxx,this.xxx)
 
+37.echarts使用心得
+
+所有的属性都可以使用方法遍历，然后赋值改变状态。
+```
+    that.series.forEach(item => {
+        item['showSymbol'] = false
+        item['yAxisIndex'] = '0'
+    })
+```
