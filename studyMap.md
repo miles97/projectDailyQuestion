@@ -15,3 +15,13 @@
 主要阶段即是开发，需求确认，测试，上线。
 
 * 组件化的思维方式，参考vant，将可复用的任何内容都以组件化的形式进行展现，减少重复劳动。
+
+* 使用return语句代替if else
+```
+function(arr){
+  if(arrgument){
+    return;
+  }
+  //如果arrgument为true,这里不执行
+}
+```
