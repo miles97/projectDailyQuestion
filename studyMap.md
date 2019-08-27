@@ -25,3 +25,4 @@ function(arr){
   //如果arrgument为true,这里不执行
 }
 ```
+* 使用history完成时间旅行
