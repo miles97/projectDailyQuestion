@@ -31,3 +31,5 @@ function(arr){
 * 通过监听滑动操作完成移动端的左滑删除
 
 * 原型链  监听  绑定事件
+
+## begin of real hard Work
