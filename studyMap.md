@@ -33,3 +33,5 @@ function(arr){
 * 原型链  监听  绑定事件
 
 ## begin of real hard Work
+
+* 给注释增加 FIXME 或 TODO 的前缀，来自airbnb语法规范
