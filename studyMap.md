@@ -35,3 +35,17 @@ function(arr){
 ## begin of real hard Work
 
 * 给注释增加 FIXME 或 TODO 的前缀，来自airbnb语法规范
+
+* 增加参数的注释
+```js
+/**
+ * 函数描述
+ *
+ * @param {Object} option 参数描述
+ * @param {string} option.url option项描述
+ * @param {string=} option.method option项描述，可选参数
+ */
+function foo(option) {
+    // TODO
+}
+```
