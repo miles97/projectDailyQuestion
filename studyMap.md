@@ -56,3 +56,5 @@ function foo(option) {
 * v-if以及v-show报错的问题。
 
 v-show有时候不适用于一些场景，特别是非固定条件的时候，容易引起问题
+
+* 对于vue后台项目的研究
