@@ -93,3 +93,5 @@ Array.from(new Set(['123','123','123','12']))
 ```
 * 阻止滑动穿透
  @touchumove.prevent
+
+* 使用原生小程序完成需求
