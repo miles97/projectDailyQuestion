@@ -95,3 +95,5 @@ Array.from(new Set(['123','123','123','12']))
  @touchumove.prevent
 
 * 使用原生小程序完成需求
+
+* 个人项目脚手架搭建学习
