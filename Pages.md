@@ -7,3 +7,5 @@
 2.分类导航以及正确问题描述
 
 3.社区贡献指南
+
+4.react-native start-up
