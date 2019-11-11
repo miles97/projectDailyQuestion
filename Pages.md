@@ -9,3 +9,5 @@
 3.社区贡献指南
 
 4.react-native start-up
+
+5.使用vue进行keepalive时，需要注意滚动位置
