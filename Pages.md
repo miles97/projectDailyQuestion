@@ -22,4 +22,4 @@
 * 使用规范的共用方法声明方法使用，以及参数的数据格式
 * 将代码模块化，并通过数组规范将可以优化算法的代码重构
 
-(数组的优化)[https://mp.weixin.qq.com/s/RXT2bsm2EglOoLSXC8zRNw]
+[数组的优化](https://mp.weixin.qq.com/s/RXT2bsm2EglOoLSXC8zRNw)
