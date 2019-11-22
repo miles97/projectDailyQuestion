@@ -23,3 +23,31 @@
 * 将代码模块化，并通过数组规范将可以优化算法的代码重构
 
 [数组的优化](https://mp.weixin.qq.com/s/RXT2bsm2EglOoLSXC8zRNw)
+
+9. 弱网情况下的接口请求顺序以及生命周期钩子的顺序
+
+10. 当路由改成为alive时需要注意的各种问题！
+
+11. 组件的编写时注意  编辑页面时带进来的值需要在组件内定位
+
+12. 组件的初始化清空问题
+
+13. 字符串IOS端的处理可能导致接口编辑时将Null处理为'null'或者<null>等等情况，使用一个统一的检测为空方法
+  ```js
+isEmpty(){
+    if (typeof obj == "undefined" || obj == null || obj == "" || obj == "null" || obj == "<null>" || obj == "undefined") {
+      return true;
+   } else {
+      return false;
+     }  
+  }
+  ```
+  然后再根据需求统一赋值成空字符串或者其他
+  ```js
+  if(argument){
+  self.saveInfo[saveInfoItem] = clueInfo[saveInfoItem] || '';
+      } 
+  
+  ```
+  
+  
