@@ -53,3 +53,13 @@ isEmpty(){
   14. vue项目起步脚手架懒人版
   actually经常会用到只有一个页面构建的H5,出于性能考量，引入资源越少越好。
   而大型的SPA项目脚手架拓展性等应更强。
+  
+  15.使用各种工具需要换行或者排版文字格式无果时
+  
+  例如使用Toast，messageBox时文字的排版问题，没有自带样式，只能通过Js进行操作时；
+  ```js
+MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系业务员开通!${'&nbsp;&nbsp;&nbsp;'}
+ 联系方式:110110110${this.commondCellphone}`)
+ ```
+通过```&nbsp;```来进行操作，手动居中对齐黑科技。
+同理，在其他一些情况下可以用/n等进行文字排版，如echarts的formatter中，需要通过js格式文字。
