@@ -74,3 +74,19 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
 用户打开注册页便进行服务端通讯，返回扫描工具，时间戳，用户手机,id等等信息，作为日志记录。
 
 18.使用img src进行静态资源请求的拦截
+```js
+    onloadimg() {
+      var newImg = new Image();
+      newImg.src = apiConfig.autostreetsImages + this.qrcode;
+      console.log(this.$refs.imgChange,newImg,'123123')
+      newImg.onerror = () => {
+        // 图片加载错误时的替换图片
+        Toast("加载失败，请返回重试！");
+      };
+      newImg.onload = () => {
+        // 图片加载成功后把地址给原来的img
+        // this.url = newImg.src;
+        this.$refs.imgChange.src = newImg.src;//替换加载资源QRcode
+        // Toast('加载中')
+      };
+```
