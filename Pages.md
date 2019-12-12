@@ -90,3 +90,4 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
         // Toast('加载中')
       };
 ```
+19.使用checklist避免重复bug
