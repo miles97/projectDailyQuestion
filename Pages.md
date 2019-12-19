@@ -97,3 +97,7 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
   item : this.data
 }
 或者Object.assign(???,item)
+
+21.sessionStorage.setItem('newDate',new Date().getTime())
+这种原生方法后不能使用return false 或者return true;
+
