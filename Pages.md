@@ -91,3 +91,9 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
       };
 ```
 19.使用checklist避免重复bug
+
+20.直接赋值对象的子元素问题
+建议直接赋值对象 = {
+  item : this.data
+}
+或者Object.assign(???,item)
