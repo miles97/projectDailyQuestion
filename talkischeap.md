@@ -30,5 +30,4 @@
 10.codereview
 codereview codereview codereview, understand??
 
-11.前端工作安排
-我的工作实在是太简单了，测试都给我提交的都是机型兼容性问题，我有限的时间都处理在Androud和IOS13机型兼容性问题之上。
+11.???
