@@ -103,3 +103,6 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
 
 22.需要同一台浏览器环境进行控制时使用sessionStorage进行控制。
 判断是重新进入页面还是刷新页面操作。
+
+23.使用web构建原生应用时需要考量的架构问题。
+
