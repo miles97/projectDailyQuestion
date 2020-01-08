@@ -110,3 +110,9 @@ MessageBox.alert(`${'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}专业版功能，请联系
 
 25.filter: grayscale(100%);
 直接让页面过滤彩色变成灰色科科
+blur：直接让页面失焦，作为过渡动画有很好滴效果
+invert(1):反转颜色
+brightness(0.5)：调整亮度 智能夜间模式科科
+还有一些突出效果，过滤颜色为指定的效果等，都可以用filter实现。
+
+26.
