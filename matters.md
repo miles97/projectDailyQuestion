@@ -17,3 +17,5 @@
 
 1.构建项目的时候可以简单的尝试一下webpack,除非特别拓展需要，否则目前阶段[起手开源项目中]不谈论webpack打包机制等，均使用vue懒人包直接构建项目，专注需求实现等逻辑。
 
+2.搭建项目环境时发现很多配置的问题，需要重新对照package.json以及install以及webpack.base.config.js对照，main.js反而没什么东西
+
