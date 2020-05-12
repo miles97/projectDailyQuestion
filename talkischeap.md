@@ -30,10 +30,3 @@
 10.codereview
 codereview codereview codereview, understand??
 
-11.前端工程方便的bug归属
-???
-
-12.年终总结归档
-暂不更新
-
-13.回归前夕控制
