@@ -33,3 +33,5 @@ watch:{
    //handler methods
  } 
 },```
+
+7.小程序开发中使用HTML原生&nbsp;无效,不适用于非标准浏览器
