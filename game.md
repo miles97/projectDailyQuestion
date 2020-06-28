@@ -8,6 +8,7 @@
 
 4.关于经常性的视图不刷新问题,很多时候vue视图不会更新，使用watch也不能使得监听更新视图
 (vuejs数组渲染的问题)[https://v1-cn.vuejs.org/guide/list.html]
+
 ```
 因为 JavaScript 的限制，Vue.js 不能检测到下面数组变化：
 直接用索引设置元素，如 vm.items[0] = {}；
